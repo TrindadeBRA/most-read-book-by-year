@@ -2,343 +2,525 @@
   "years": {
     "1935": {
       "book": "Luz de Esperança",
-      "author": "Lloyd C. Douglas"
+      "author": "Lloyd C. Douglas",
+      "book_cover": "/images/book-cover/luz-de-esperanca.jpg",
+      "description": "N/A"
     },
     "1936": {
       "book": "E o Vento Levou",
-      "author": "Margaret Mitchell"
+      "author": "Margaret Mitchell",
+      "book_cover": "/images/book-cover/e-o-vento-levou.jpg",
+      "description": "Ano de 1861. O sul dos Estados Unidos está prestes a ingressar na sangrenta Guerra Civil norte-americana. Na fazenda Tara, na Geórgia, a bela jovem impetuosa e mimada Scarlett O’Hara transforma-se em mulher prática e disposta a tudo para conquistar o que deseja. Frustrada por não conseguir se casar com Ashley Wilkes, Scarlett acaba se envolvendo com o aventureiro Rhett Butler, com quem viverá uma das histórias de amor mais célebres e conturbadas da literatura. A guerra é intensa e o cerco dos ianques, incisivo, levando a fazenda a uma situação desastrosa de fome e desespero."
     },
     "1937": {
       "book": "E o Vento Levou",
-      "author": "Margaret Mitchell"
+      "author": "Margaret Mitchell",
+      "book_cover": "/images/book-cover/e-o-vento-levou.jpg",
+      "description": "Ano de 1861. O sul dos Estados Unidos está prestes a ingressar na sangrenta Guerra Civil norte-americana. Na fazenda Tara, na Geórgia, a bela jovem impetuosa e mimada Scarlett O’Hara transforma-se em mulher prática e disposta a tudo para conquistar o que deseja. Frustrada por não conseguir se casar com Ashley Wilkes, Scarlett acaba se envolvendo com o aventureiro Rhett Butler, com quem viverá uma das histórias de amor mais célebres e conturbadas da literatura. A guerra é intensa e o cerco dos ianques, incisivo, levando a fazenda a uma situação desastrosa de fome e desespero."
     },
     "1938": {
       "book": "The Yearling",
-      "author": "Marjorie Kinnan Rawlings"
+      "author": "Marjorie Kinnan Rawlings",
+      "book_cover": "/images/book-cover/the-yearling.jpg",
+      "description": "No novel better epitomizes the love between a child and a pet than The Yearling. Young Jody adopts an orphaned fawn he calls Flag and makes it a part of his family and his best friend. But life in the Florida backwoods is harsh, and so, as his family fights off wolves, bears, and even alligators, and faces failure in their tenuous subsistence farming, Jody must finally part with his dear animal friend. There has been a film and even a musical based on this moving story, a fine work of great American literature."
     },
     "1939": {
       "book": "As Vinhas da Ira",
-      "author": "John Steinbeck"
+      "author": "John Steinbeck",
+      "book_cover": "/images/book-cover/as-vinhas-da-ira.jpg",
+      "description": "Publicado em 1939, As vinhas da ira marcou o auge da carreira de John Steinbeck, vencedor do Nobel de Literatura, e se mantém como um documento social e um marco da literatura. Assim como o livro, o filme, que rendeu um Oscar ao diretor John Ford e foi protagonizado por Henry Fonda, tornou-se um clássico."
     },
     "1940": {
       "book": "Como Era Verde meu Vale",
-      "author": "Richard Llewellyn"
+      "author": "Richard Llewellyn",
+      "book_cover": "/images/book-cover/como-era-verde-meu-vale.jpg",
+      "description": "How Green Was My Valley é um romance do escritor britânico Richard Llewellyn, originalmente publicado em 1939. Foi aclamado internacionalmente e, como a maioria dos livros do autor, a ação transcorre no País de Gales."
     },
     "1941": {
       "book": "As Chaves do Reino",
-      "author": "AJ Cronin"
+      "author": "AJ Cronin",
+      "book_cover": "/images/book-cover/as-chaves-do-reino.jpg",
+      "description": "As Chaves do Reino é um romance de 1941 de A. J. Cronin. Abrangendo seis décadas, conta a história do padre Francis Chisholm, um padre católico escocês não convencional que luta para estabelecer uma missão na China."
     },
     "1942": {
       "book": "A Canção de Bernadette",
-      "author": "Franz Werfel"
+      "author": "Franz Werfel",
+      "book_cover": "/images/book-cover/a-cancao-de-bernadette.jpg",
+      "description": " Livro retrata a capitulação dos adversários, empolgados um a um, até que o próprio antagonista mais cínico acaba, embora recalcitrando, por baixar a cabeça. Evidencia, em tipos desenhados magistralmente, os ardis do mundo malévolo que gravitava em torno do milagre. Dá-nos uma imagem, um índice social do segundo império, em soberanos e bispos, padres e freiras, funcionários e médicos, comerciantes e artífices, pobres e ricos. "
     },
     "1943": {
       "book": "O Manto de Cristo",
-      "author": "Lloyd C. Douglas"
+      "author": "Lloyd C. Douglas",
+      "book_cover": "/images/book-cover/o-manto-de-cristo.jpg",
+      "description": "Livro que deu origem ao filme 'O Manto Sagrado'. O autor dá-nos aqui 30 anos de pesquisas intensas sobre a vida do Homem da Galiléia e 'aquele grupo de imortais que julgaram a sua amizade mais valiosa que o seu próprio sangue'. Este livro parece ter sido a meta final do autor, com relação aos seus trabalhos anteriores. Antes de ler este livro, parecia impossível recompor-se com tanta justeza o período que precedeu à queda do Império Romano, com suas degradantes intrigas de corte, ou dizer-se o que se encontra no Novo Testamento, dando-lhe a forma de uma novela moderna; Lloyd Douglas, porém, demonstrou essa rara capacidade. "
     },
     "1944": {
       "book": "Strange Fruit",
-      "author": "Lillian Smith"
+      "author": "Lillian Smith",
+      "book_cover": "/images/book-cover/strange-fruit.jpg",
+      "description": "Trajetória de Strange Fruit, a poética canção que, na voz expressiva de Billie Holiday, tornou-se ícone do protesto contra o racismo nos Estados Unidos e ajudou a deflagrar a incipiente luta pelos direitos civis."
     },
     "1945": {
       "book": "Forever Amber",
-      "author": "Kathleen Winsor"
+      "author": "Kathleen Winsor",
+      "book_cover": "/images/book-cover/forever-amber.jpg",
+      "description": "Forever Amber é um romance histórico de Kathleen Winsor ambientado na Inglaterra do século XVII. Foi transformado em filme em 1947 pela 20th Century Fox. Forever Amber conta a história de uma órfã Amber St"
     },
     "1946": {
       "book": "O General do Rei",
-      "author": "Daphne Du Maurier"
+      "author": "Daphne Du Maurier",
+      "book_cover": "/images/book-cover/o-general-do-rei.jpg",
+      "description": "'O General do Rei' é um romance, publicado em 1946, pela autora e dramaturga inglesa Daphne du Maurier. O romance se passa durante a Guerra Civil Inglesa. Honor Harris, uma mulher de meia-idade, narra a história de sua juventude, a partir dos dez anos de idade, quando vivia com seu irmão Robin."
     },
     "1947": {
       "book": "O Milagre dos Sinos",
-      "author": "Russell Janney"
+      "author": "Russell Janney",
+      "book_cover": "/images/book-cover/o-milagre-dos-sinos.jpg",
+      "description": ""
     },
     "1948": {
       "book": "O Grande Pescador",
-      "author": "Lloyd C. Douglas"
+      "author": "Lloyd C. Douglas",
+      "book_cover": "/images/book-cover/o-grande-pescador.jpg",
+      "description": ""
     },
     "1949": {
       "book": "O Egípcio",
-      "author": "Mika Waltari"
+      "author": "Mika Waltari",
+      "book_cover": "/images/book-cover/o-egipcio.jpg",
+      "description": ""
     },
     "1950": {
       "book": "Na Outra Margem, Entre as Árvores",
-      "author": "Ernest Hemingway"
+      "author": "Ernest Hemingway",
+      "book_cover": "/images/book-cover/na-outra-margem-entre-as-arvores.jpg",
+      "description": ""
     },
     "1951": {
       "book": "Até a Eternidade",
-      "author": "James Jones"
+      "author": "James Jones",
+      "book_cover": "/images/book-cover/ate-a-eternidade.jpg",
+      "description": ""
     },
     "1952": {
       "book": "A Leste do Éden",
-      "author": "John Steinbeck"
+      "author": "John Steinbeck",
+      "book_cover": "/images/book-cover/a-leste-do-eden.jpg",
+      "description": ""
     },
     "1953": {
       "book": "O Manto Sagrado",
-      "author": "Lloyd C. Douglas"
+      "author": "Lloyd C. Douglas",
+      "book_cover": "/images/book-cover/o-manto-sagrado.jpg",
+      "description": ""
     },
     "1954": {
       "book": "Mary Anne",
-      "author": "Daphne Du Maurier"
+      "author": "Daphne Du Maurier",
+      "book_cover": "/images/book-cover/mary-anne.jpg",
+      "description": ""
     },
     "1955": {
       "book": "Bonjour Tristesse",
-      "author": "Françoise Sagan"
+      "author": "Françoise Sagan",
+      "book_cover": "/images/book-cover/bonjour-tristesse.jpg",
+      "description": ""
     },
     "1956": {
       "book": "Amar Não é Pecado",
-      "author": "Grace Metalious"
+      "author": "Grace Metalious",
+      "book_cover": "/images/book-cover/amar-nao-e-pecado.jpg",
+      "description": ""
     },
     "1957": {
       "book": "O Amor Tudo Vence",
-      "author": "James Gould Cozzens"
+      "author": "James Gould Cozzens",
+      "book_cover": "/images/book-cover/o-amor-tudo-vence.jpg",
+      "description": ""
     },
     "1958": {
       "book": "Doutor Jivago",
-      "author": "Boris Pasternak"
+      "author": "Boris Pasternak",
+      "book_cover": "/images/book-cover/doutor-jivago.jpg",
+      "description": ""
     },
     "1959": {
       "book": "Exodus",
-      "author": "Leon Uris"
+      "author": "Leon Uris",
+      "book_cover": "/images/book-cover/exodus.jpg",
+      "description": ""
     },
     "1960": {
       "book": "América Violenta",
-      "author": "Allen Drury"
+      "author": "Allen Drury",
+      "book_cover": "/images/book-cover/america-violenta.jpg",
+      "description": ""
     },
     "1961": {
       "book": "Agonia e Êxtase",
-      "author": "Irving Stone"
+      "author": "Irving Stone",
+      "book_cover": "/images/book-cover/agonia-e-extase.jpg",
+      "description": ""
     },
     "1962": {
       "book": "A Nau dos Insensatos",
-      "author": "Katherine Anne Porter"
+      "author": "Katherine Anne Porter",
+      "book_cover": "/images/book-cover/a-nau-dos-insensatos.jpg",
+      "description": ""
     },
     "1963": {
       "book": "As Sandálias do Pescador",
-      "author": "Morris West"
+      "author": "Morris West",
+      "book_cover": "/images/book-cover/as-sandalias-do-pescador.jpg",
+      "description": ""
     },
     "1964": {
       "book": "O Espião que Saiu do Frio",
-      "author": "John le Carré"
+      "author": "John le Carré",
+      "book_cover": "/images/book-cover/o-espiao-que-saiu-do-frio.jpg",
+      "description": ""
     },
     "1965": {
       "book": "A Fonte de Israel",
-      "author": "James A. Michener"
+      "author": "James A. Michener",
+      "book_cover": "/images/book-cover/a-fonte-de-israel.jpg",
+      "description": ""
     },
     "1966": {
       "book": "O Vale das Bonecas",
-      "author": "Jacqueline Susann"
+      "author": "Jacqueline Susann",
+      "book_cover": "/images/book-cover/o-vale-das-bonecas.jpg",
+      "description": ""
     },
     "1967": {
       "book": "Vidas Sem Rumo",
-      "author": "S. E. Hinton"
+      "author": "S. E. Hinton",
+      "book_cover": "/images/book-cover/vidas-sem-rumo.jpg",
+      "description": ""
     },
     "1968": {
       "book": "Aeroporto",
-      "author": "Arthur Hailey"
+      "author": "Arthur Hailey",
+      "book_cover": "/images/book-cover/aeroporto.jpg",
+      "description": ""
     },
     "1969": {
       "book": "O Complexo de Portnoy",
-      "author": "Philip Roth"
+      "author": "Philip Roth",
+      "book_cover": "/images/book-cover/o-complexo-de-portnoy.jpg",
+      "description": ""
     },
     "1970": {
       "book": "Uma História de Amor",
-      "author": "Erich Segal"
+      "author": "Erich Segal",
+      "book_cover": "/images/book-cover/uma-historia-de-amor.jpg",
+      "description": ""
     },
     "1971": {
       "book": "Automóvel",
-      "author": "Arthur Hailey"
+      "author": "Arthur Hailey",
+      "book_cover": "/images/book-cover/automovel.jpg",
+      "description": ""
     },
     "1972": {
       "book": "Fernão Capelo Gaivota",
-      "author": "Richard Bach"
+      "author": "Richard Bach",
+      "book_cover": "/images/book-cover/fernao-capelo-gaivota.jpg",
+      "description": ""
     },
     "1973": {
       "book": "Fernão Capelo Gaivota",
-      "author": "Richard Bach"
+      "author": "Richard Bach",
+      "book_cover": "/images/book-cover/fernao-capelo-gaivota.jpg",
+      "description": ""
     },
     "1974": {
       "book": "A Saga do Colorado",
-      "author": "James A. Michener"
+      "author": "James A. Michener",
+      "book_cover": "/images/book-cover/a-saga-do-colorado.jpg",
+      "description": ""
     },
     "1975": {
       "book": "Gabriela, Cravo e Canela",
-      "author": "Jorge Amado"
+      "author": "Jorge Amado",
+      "book_cover": "/images/book-cover/gabriela-cravo-e-canela.jpg",
+      "description": ""
     },
     "1976": {
       "book": "Araceli, Meu Amor",
-      "author": "José Louzeiro"
+      "author": "José Louzeiro",
+      "book_cover": "/images/book-cover/araceli-meu-amor.jpg",
+      "description": ""
     },
     "1977": {
       "book": "O Silmarillion",
-      "author": "J. R. R. Tolkien"
+      "author": "J. R. R. Tolkien",
+      "book_cover": "/images/book-cover/o-silmarillion.jpg",
+      "description": ""
     },
     "1978": {
       "book": "Conversa na Catedral",
-      "author": "Mario Vargas Llosa"
+      "author": "Mario Vargas Llosa",
+      "book_cover": "/images/book-cover/conversa-na-catedral.jpg",
+      "description": ""
     },
     "1979": {
       "book": "Farda, Fardão, Camisola de Dormir",
-      "author": "Jorge Amado"
+      "author": "Jorge Amado",
+      "book_cover": "/images/book-cover/farda-fardao-camisola-de-dormir.jpg",
+      "description": ""
     },
     "1980": {
       "book": "A Falta que Ela me Faz",
-      "author": "Fernando Sabino"
+      "author": "Fernando Sabino",
+      "book_cover": "/images/book-cover/a-falta-que-ela-me-faz.jpg",
+      "description": ""
     },
     "1981": {
       "book": "Crônicas de uma morte anunciada",
-      "author": "Gabriel García Márquez"
+      "author": "Gabriel García Márquez",
+      "book_cover": "/images/book-cover/cronicas-de-uma-morte-anunciada.jpg",
+      "description": ""
     },
     "1982": {
       "book": "O Analista de Bagé",
-      "author": "Luis Fernando Veríssimo"
+      "author": "Luis Fernando Veríssimo",
+      "book_cover": "/images/book-cover/o-analista-de-bage.jpg",
+      "description": ""
     },
     "1983": {
       "book": "A Velhinha de Taubaté",
-      "author": "Luis Fernando Veríssimo"
+      "author": "Luis Fernando Veríssimo",
+      "book_cover": "/images/book-cover/a-velhinha-de-taubate.jpg",
+      "description": ""
     },
     "1984": {
       "book": "Tocaia Grande",
-      "author": "Jorge Amado"
+      "author": "Jorge Amado",
+      "book_cover": "/images/book-cover/tocaia-grande.jpg",
+      "description": ""
     },
     "1985": {
       "book": "A Insustentável Leveza do Ser",
-      "author": "Milan Kundera"
+      "author": "Milan Kundera",
+      "book_cover": "/images/book-cover/a-insustentavel-leveza-do-ser.jpg",
+      "description": ""
     },
     "1986": {
       "book": "A Insustentável Leveza do Ser",
-      "author": "Milan Kundera"
+      "author": "Milan Kundera",
+      "book_cover": "/images/book-cover/a-insustentavel-leveza-do-ser.jpg",
+      "description": ""
     },
     "1987": {
       "book": "As Brumas de Avalon",
-      "author": "Marion Zimmer Bradley"
+      "author": "Marion Zimmer Bradley",
+      "book_cover": "/images/book-cover/as-brumas-de-avalon.jpg",
+      "description": ""
     },
     "1988": {
       "book": "As Brumas de Avalon",
-      "author": "Marion Zimmer Bradley"
+      "author": "Marion Zimmer Bradley",
+      "book_cover": "/images/book-cover/as-brumas-de-avalon.jpg",
+      "description": ""
     },
     "1989": {
       "book": "As Areias do Tempo",
-      "author": "Sidney Sheldon"
+      "author": "Sidney Sheldon",
+      "book_cover": "/images/book-cover/as-areias-do-tempo.jpg",
+      "description": ""
     },
     "1990": {
       "book": "Diário de um Mago",
-      "author": "Paulo Coelho"
+      "author": "Paulo Coelho",
+      "book_cover": "/images/book-cover/diario-de-um-mago.jpg",
+      "description": ""
     },
     "1991": {
       "book": "O Alquimista",
-      "author": "Paulo Coelho"
+      "author": "Paulo Coelho",
+      "book_cover": "/images/book-cover/o-alquimista.jpg",
+      "description": ""
     },
     "1992": {
       "book": "O Alquimista",
-      "author": "Paulo Coelho"
+      "author": "Paulo Coelho",
+      "book_cover": "/images/book-cover/o-alquimista.jpg",
+      "description": ""
     },
     "1993": {
       "book": "Noite sobre as Águas",
-      "author": "Ken Follett"
+      "author": "Ken Follett",
+      "book_cover": "/images/book-cover/noite-sobre-as-aguas.jpg",
+      "description": ""
     },
     "1994": {
       "book": "Brida",
-      "author": "Paulo Coelho"
+      "author": "Paulo Coelho",
+      "book_cover": "/images/book-cover/brida.jpg",
+      "description": ""
     },
     "1995": {
       "book": "Comédias da Vida Privada",
-      "author": "Luis Fernando Veríssimo"
+      "author": "Luis Fernando Veríssimo",
+      "book_cover": "/images/book-cover/comedias-da-vida-privada.jpg",
+      "description": ""
     },
     "1996": {
       "book": "O Mundo de Sofia",
-      "author": "Jostein Gaarder"
+      "author": "Jostein Gaarder",
+      "book_cover": "/images/book-cover/o-mundo-de-sofia.jpg",
+      "description": ""
     },
     "1997": {
       "book": "O Mundo de Sofia",
-      "author": "Jostein Gaarder"
+      "author": "Jostein Gaarder",
+      "book_cover": "/images/book-cover/o-mundo-de-sofia.jpg",
+      "description": ""
     },
     "1998": {
       "book": "O book das Virtudes para Crianças",
-      "author": "William j. bennett"
+      "author": "William j. bennett",
+      "book_cover": "/images/book-cover/o-book-das-virtudes-para-criancas.jpg",
+      "description": ""
     },
     "1999": {
       "book": "O Homem que Matou Getúlio Vargas",
-      "author": "Jô Soares"
+      "author": "Jô Soares",
+      "book_cover": "/images/book-cover/o-homem-que-matou-getulio-vargas.jpg",
+      "description": ""
     },
     "2000": {
       "book": "Harry Potter e a Pedra Filosofal",
-      "author": "J.K Rowling"
+      "author": "J.K Rowling",
+      "book_cover": "/images/book-cover/harry-potter-e-a-pedra-filosofal.jpg",
+      "description": ""
     },
     "2001": {
       "book": "Harry Potter e a Pedra Filosofal",
-      "author": "J.K. Rowling"
+      "author": "J.K. Rowling",
+      "book_cover": "/images/book-cover/harry-potter-e-a-pedra-filosofal.jpg",
+      "description": ""
     },
     "2002": {
       "book": "Harry Potter e a Câmara Secreta",
-      "author": "J.K. Rowling"
+      "author": "J.K. Rowling",
+      "book_cover": "/images/book-cover/harry-potter-e-a-camara-secreta.jpg",
+      "description": ""
     },
     "2003": {
       "book": "Onze Minutos",
-      "author": "Paulo Coelho"
+      "author": "Paulo Coelho",
+      "book_cover": "/images/book-cover/onze-minutos.jpg",
+      "description": ""
     },
     "2004": {
       "book": "Budapeste",
-      "author": "Chico Buarque"
+      "author": "Chico Buarque",
+      "book_cover": "/images/book-cover/budapeste.jpg",
+      "description": ""
     },
     "2005": {
       "book": "Fortaleza Digital",
-      "author": "Dan Brown"
+      "author": "Dan Brown",
+      "book_cover": "/images/book-cover/fortaleza-digital.jpg",
+      "description": ""
     },
     "2006": {
       "book": "Quando Nietzsche Chorou",
-      "author": "Irvin D. Yalom"
+      "author": "Irvin D. Yalom",
+      "book_cover": "/images/book-cover/quando-nietzsche-chorou.jpg",
+      "description": ""
     },
     "2007": {
       "book": "A Cidade do Sol",
-      "author": "Khaled Hosseini"
+      "author": "Khaled Hosseini",
+      "book_cover": "/images/book-cover/a-cidade-do-sol.jpg",
+      "description": ""
     },
     "2008": {
       "book": "A Menina que Roubava books",
-      "author": "Markus Zusak"
+      "author": "Markus Zusak",
+      "book_cover": "/images/book-cover/a-menina-que-roubava-books.jpg",
+      "description": ""
     },
     "2009": {
       "book": "A Cabana",
-      "author": "William Young"
+      "author": "William Young",
+      "book_cover": "/images/book-cover/a-cabana.jpg",
+      "description": ""
     },
     "2010": {
       "book": "A Cabana",
-      "author": "William P. Young"
+      "author": "William P. Young",
+      "book_cover": "/images/book-cover/a-cabana.jpg",
+      "description": ""
     },
     "2011": {
       "book": "A Guerra dos Tronos",
-      "author": "George R. R. Martin"
+      "author": "George R. R. Martin",
+      "book_cover": "/images/book-cover/a-guerra-dos-tronos.jpg",
+      "description": ""
     },
     "2012": {
       "book": "A Escolha",
-      "author": "Nicholas Sparks"
+      "author": "Nicholas Sparks",
+      "book_cover": "/images/book-cover/a-escolha.jpg",
+      "description": ""
     },
     "2013": {
       "book": "Inferno",
-      "author": "Dan Brown"
+      "author": "Dan Brown",
+      "book_cover": "/images/book-cover/inferno.jpg",
+      "description": ""
     },
     "2014": {
       "book": "A Culpa é das Estrelas",
-      "author": "John Green"
+      "author": "John Green",
+      "book_cover": "/images/book-cover/a-culpa-e-das-estrelas.jpg",
+      "description": ""
     },
     "2015": {
       "book": "O Pequeno Príncipe",
-      "author": "Antoine de Saint-Exupéry"
+      "author": "Antoine de Saint-Exupéry",
+      "book_cover": "/images/book-cover/o-pequeno-principe.jpg",
+      "description": ""
     },
     "2016": {
       "book": "Harry Potter e a Criança Amaldiçoada",
-      "author": "J.K Rowling"
+      "author": "J.K Rowling",
+      "book_cover": "/images/book-cover/harry-potter-e-a-crianca-amaldicoada.jpg",
+      "description": ""
     },
     "2017": {
       "book": "Como Fazer Amigos e Influenciar Pessoas",
-      "author": "Dale Carnegie"
+      "author": "Dale Carnegie",
+      "book_cover": "/images/book-cover/como-fazer-amigos-e-influenciar-pessoas.jpg",
+      "description": ""
     },
     "2018": {
       "book": "A Sutil Arte de Ligar o F*da-Se",
-      "author": "Mark Manson"
+      "author": "Mark Manson",
+      "book_cover": "/images/book-cover/a-sutil-arte-de-ligar-o-fda-se.jpg",
+      "description": ""
     },
     "2019": {
       "book": "A Sutil Arte de Ligar o F*da-Se",
-      "author": "Mark Manson"
+      "author": "Mark Manson",
+      "book_cover": "/images/book-cover/a-sutil-arte-de-ligar-o-fda-se.jpg",
+      "description": ""
+    },
+    "2020": {
+      "book": "Lugar Nenhum",
+      "author": "Neil Gaiman",
+      "book_cover": "/images/book-cover/lugar-nenhum.jpg",
+      "description": ""
+    },
+    "2021": {
+      "book": "Lugar Nenhum",
+      "author": "Neil Gaiman",
+      "book_cover": "/images/book-cover/lugar-nenhum.jpg",
+      "description": ""
     }
   }
 }
