@@ -33,7 +33,7 @@
     }
 
 
-    #div-category {
+    #div-book-by-year {
         background-color: #f2f2f2;
         padding: 18px;
         border-radius: 16px;
@@ -47,7 +47,7 @@
         border: 4px solid #000;
     }
 
-    #form-category label {
+    #form-book-by-year label {
         margin-bottom: 0;
         display: block;
     }
@@ -57,7 +57,7 @@
         cursor: pointer;
     }
 
-    #form-category label {
+    #form-book-by-year label {
         margin-bottom: 0;
         display: block;
     }
@@ -116,18 +116,11 @@
 </style>
 
 <div>
-    <div id="div-category">
-        <h2 style="margin-bottom: 15px;">Escolha uma categoria:</h2>
-        <form id="form-category">
-            <label for="category">Selecione uma categoria de livros:</label>
-            <select id="category" name="category">
-                <option value="our-recommendation">Nossa lista de recomendações!</option>
-                <option value="biography">Biografia</option>
-                <option value="fantasy">Fantasia</option>
-                <option value="horror">Horror</option>
-                <option value="poetry">Poesia</option>
-                <option value="romance">Romance</option>
-                <option value="thriller">Suspense</option>
+    <div id="div-book-by-year">
+        <h2 style="margin-bottom: 15px;">Qual ano você nasceu?</h2>
+        <form id="form-book-by-year">
+            <label for="book-by-year">Selecione o seu ano de nascimento:</label>
+            <select id="book-by-year" name="book-by-year">
             </select>
 
             <br><br>
@@ -157,108 +150,6 @@
     </div>
 
     <script>
-        function sortAgain() {
-            // Rolar a página para o topo
-            window.scrollTo(0, 0);
-
-            // Recarregar a página
-            window.location.reload();
-        }
-
-        function submitForm() {
-            var category = document.getElementById("category").value;
-            // console.log("Formulário 2 Enviado:");
-            // console.log("Categoria de Livros: " + category);
-
-            // Aqui você pode chamar a função para buscar um livro aleatório com base na categoria
-            searchRandomBook(category);
-        }
-
-        function checkQtyResultsLoop(category, qntyResults) {
-            const urlParams = new URLSearchParams(window.location.search);
-            const categoryParam = urlParams.get(`cat_${category}`);
-            if (categoryParam) {
-                const numbers = categoryParam.split(',').map(Number);
-                // console.log("numbers.length", numbers.length)
-                // console.log("qntyResults", qntyResults)
-
-                if (numbers.length === qntyResults) {
-                    return false;
-                }
-
-            }
-            return true;
-        }
-
-        function searchRandomBook(category) {
-            // Mapear o caminho do arquivo JSON com base na categoria fornecida
-            const filePath = `https://raw.githubusercontent.com/TrindadeBRA/pick-your-book/master/categories/${category}.json`;
-
-            // Realizar a requisição local
-            fetch(filePath)
-                .then(response => response.json())
-                .then(data => {
-                    // Verificar se existem livros no JSON
-                    if (data.books && data.books.length > 0) {
-
-                        var qntyResults = data.books.length;
-                        let canContinue = checkQtyResultsLoop(category, qntyResults)
-
-                        if (canContinue) {
-                            // Selecionar um índice aleatório que não está presente nos parâmetros da categoria
-                            let randomIndex;
-                            do {
-                                randomIndex = Math.floor(Math.random() * data.books.length);
-                            } while (!validateRandomIndex(category, randomIndex));
-
-                            const book = data.books[randomIndex];
-
-                            // Chame a função addRandomIndexToCategoryParams após encontrar o livro aleatório
-                            addRandomIndexToCategoryParams(randomIndex, category);
-
-
-                            // Log dos campos do livro selecionado
-                            // console.log("Livro Aleatório Encontrado:");
-                            // console.log("Nome: " + book.name);
-                            // console.log("Autor: " + book.author);
-                            // console.log("Ano de Publicação: " + book.pub_year);
-                            // console.log("Descrição: " + book.description);
-                            // console.log("Capa: " + removeAccent(book.book_cover));
-
-
-                            // Atualizar os valores das spans
-                            document.querySelector('.book-name').textContent = book.name + " (" + book.pub_year + ")";
-                            document.querySelector('.book-author').textContent = "Escrito por: " + book.author;
-                            document.querySelector('.book-description').textContent = book.description;
-                            document.querySelector('.book-cover').src = "https://raw.githubusercontent.com/TrindadeBRA/pick-your-book/master/" + removeAccent(book.book_cover);
-                            document.querySelector('.book-cover').alt = book.name;
-                            document.querySelector('.book-cover').title = book.name;
-
-                            let searchParamBookName = book.name + " " + book.author;
-                            let bookNameFormatted = formatBookName(searchParamBookName);
-                            let buyAmznUrl = "https://www.amazon.com.br/s?k=" + bookNameFormatted + "&i=stripbooks&crid=14EMS0LVCVSJJ&sprefix=" + bookNameFormatted + "%2Cstripbooks%2C288&linkCode=ll2&tag=trindadebra06-20&linkId=292401f8c737965fe22e62087dc57222&language=pt_BR&ref_=as_li_ss_tl";
-
-                            // console.log(">>", buyAmznUrl)
-                            document.querySelector('.buy-button').href = buyAmznUrl
-                            document.querySelector('.buy-image').href = buyAmznUrl
-
-                            // Exibir a div com os dados do livro
-                            document.getElementById("div-category").style.display = "none";
-                            document.getElementById("bookData").style.display = "block";
-
-                        } else {
-                            alert("Não temos mais recomendações para esta categoria. Tente outra categoria!")
-                        }
-
-                    } else {
-                        console.log("Nenhum livro encontrado para esta categoria.");
-                    }
-                })
-                .catch(error => {
-                    console.error("Ocorreu um erro ao buscar o livro:", error);
-                });
-        }
-
         function formatBookName(bookCover) {
             // Converter tudo para minúsculas
             let formattedName = bookCover.toLowerCase();
@@ -277,57 +168,96 @@
             return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
         }
 
-        function addRandomIndexToCategoryParams(randomIndex, category) {
-            const urlParams = new URLSearchParams(window.location.search);
-            const params = {};
+        const url = 'https://raw.githubusercontent.com/TrindadeBRA/most-read-book-by-year/master/data/books.json';
 
-            // Iterar sobre todos os parâmetros da URL
-            for (const [key, value] of urlParams) {
-                // Verificar se o parâmetro possui o formato cat_$categoria
-                const match = key.match(/^cat_(.+)$/);
-                if (match) {
-                    const paramCategory = match[1];
-                    // Se for da mesma categoria, adicionar o randomIndex aos valores
-                    if (paramCategory === category) {
-                        // Se já houver valores para esta categoria, adicionamos o novo randomIndex aos valores existentes
-                        if (params[key]) {
-                            params[key] += `,${randomIndex}`;
-                        } else {
-                            params[key] = value + `,${randomIndex}`;
-                        }
-                    } else {
-                        // Caso contrário, manter o parâmetro como está
-                        params[key] = value;
+        function getYearsFromJSON() {
+            // Realizar uma requisição HTTP
+            return fetch(url)
+                .then(response => {
+                    // Verificar se a resposta foi bem-sucedida
+                    if (!response.ok) {
+                        throw new Error('Erro ao obter os dados.');
                     }
-                } else {
-                    // Manter os parâmetros que não correspondem ao formato cat_$categoria
-                    params[key] = value;
-                }
-            }
-
-            // Se não houver parâmetros para a categoria atual, adicionar um novo parâmetro
-            if (!(`cat_${category}` in params)) {
-                params[`cat_${category}`] = randomIndex.toString();
-            }
-
-            // Reconstruir a string da query da URL com os parâmetros atualizados
-            let updatedParamsString = '';
-            for (const [key, value] of Object.entries(params)) {
-                updatedParamsString += `${key}=${value}&`;
-            }
-            // Remover o último '&' e atualizar a URL
-            window.history.replaceState({}, '', `${window.location.pathname}?${updatedParamsString.slice(0, -1)}`);
+                    // Parse do JSON
+                    return response.json();
+                })
+                .then(data => {
+                    // Extrair os anos do objeto JSON
+                    return Object.keys(data.years);
+                })
+                .catch(error => {
+                    console.error('Erro:', error);
+                });
         }
 
-        function validateRandomIndex(category, randomIndex) {
-            const urlParams = new URLSearchParams(window.location.search);
-            const categoryParam = urlParams.get(`cat_${category}`);
-            if (categoryParam) {
-                const numbers = categoryParam.split(',').map(Number);
-                return !numbers.includes(randomIndex);
-            }
-            return true;
+        function populateSelectOptions(years) {
+            const selectElement = document.getElementById('book-by-year');
+            selectElement.innerHTML = '';
+
+            const defaultOption = document.createElement('option');
+            defaultOption.text = 'Selecione o ano';
+            selectElement.appendChild(defaultOption);
+
+            years.forEach(year => {
+                const option = document.createElement('option');
+                option.value = year;
+                option.text = year;
+                selectElement.appendChild(option);
+            });
         }
+
+        getYearsFromJSON()
+            .then(years => {
+                // Montar as opções do select
+                populateSelectOptions(years);
+            });
+
+        // Função para manipular o envio do formulário
+        function submitForm() {
+            const selectedYear = document.getElementById('book-by-year').value;
+            const booksDataUrl = 'https://raw.githubusercontent.com/TrindadeBRA/most-read-book-by-year/master/data/books.json';
+
+            // Realizar uma requisição HTTP para obter os dados dos livros
+            fetch(booksDataUrl)
+                .then(response => {
+                    // Verificar se a resposta foi bem-sucedida
+                    if (!response.ok) {
+                        throw new Error('Erro ao obter os dados.');
+                    }
+                    // Parse do JSON
+                    return response.json();
+                })
+                .then(data => {
+                    // Verificar se o ano selecionado existe nos dados
+                    if (data.years[selectedYear]) {
+
+                        const book = data.years[selectedYear];
+                        document.querySelector('.book-name').textContent = book.book_name;
+                        document.querySelector('.book-author').textContent = "Escrito por: " + book.author;
+                        document.querySelector('.book-description').textContent = book.description;
+                        document.querySelector('.book-cover').src = "https://raw.githubusercontent.com/TrindadeBRA/most-read-book-by-year/master/" + removeAccent(book.book_cover);
+                        document.querySelector('.book-cover').alt = book.book_name;
+                        document.querySelector('.book-cover').title = book.book_name;
+
+                        let searchParamBookName = book.book_name + " " + book.author;
+                        let bookNameFormatted = formatBookName(searchParamBookName);
+                        let buyAmznUrl = "https://www.amazon.com.br/s?k=" + bookNameFormatted + "&i=stripbooks&crid=14EMS0LVCVSJJ&sprefix=" + bookNameFormatted + "%2Cstripbooks%2C288&linkCode=ll2&tag=trindadebra06-20&linkId=292401f8c737965fe22e62087dc57222&language=pt_BR&ref_=as_li_ss_tl";
+
+                        document.querySelector('.buy-button').href = buyAmznUrl
+                        document.querySelector('.buy-image').href = buyAmznUrl
+
+                        document.getElementById("div-book-by-year").style.display = "none";
+                        document.getElementById("bookData").style.display = "block";
+                    } else {
+                        alert('Ano selecionado não encontrado nos dados.');
+                    }
+                })
+                .catch(error => {
+                    console.error('Erro:', error);
+                });
+        }
+
+
 
     </script>
 
