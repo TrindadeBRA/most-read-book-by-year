@@ -1,6 +1,8 @@
 <style>
     #book-info img {
         width: 100%;
+        max-width: 280px;
+        object-fit: cover;
     }
 
     #bookData .buy-image {
@@ -130,7 +132,7 @@
     </div>
 
     <div id="bookData" style="display:none;">
-        <h2>Sua próxima leitura pode ser:</h2>
+        <h2>O livro mais lido em <span class="your-selected-year"></span> no Brasil foi:</h2>
         <div id="book-info">
             <a target="_blank" class="buy-image">
                 <img src="" alt="" class="book-cover">
@@ -232,6 +234,7 @@
                     if (data.years[selectedYear]) {
 
                         const book = data.years[selectedYear];
+                        document.querySelector('.your-selected-year').textContent = selectedYear;
                         document.querySelector('.book-name').textContent = book.book_name;
                         document.querySelector('.book-author').textContent = "Escrito por: " + book.author;
                         document.querySelector('.book-description').textContent = book.description;
@@ -255,6 +258,11 @@
                 .catch(error => {
                     console.error('Erro:', error);
                 });
+        }
+
+        // Função para sortear novamente
+        function sortAgain() {
+            location.reload(); // Esta linha recarrega a página
         }
 
 
