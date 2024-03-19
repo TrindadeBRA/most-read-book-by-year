@@ -170,11 +170,11 @@
             return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
         }
 
-        const url = 'https://raw.githubusercontent.com/TrindadeBRA/most-read-book-by-year/master/data/books.json';
+        const filePath = 'https://raw.githubusercontent.com/TrindadeBRA/most-read-book-by-year/master/data/books.json';
 
         function getYearsFromJSON() {
             // Realizar uma requisição HTTP
-            return fetch(url)
+            return fetch(filePath)
                 .then(response => {
                     // Verificar se a resposta foi bem-sucedida
                     if (!response.ok) {
