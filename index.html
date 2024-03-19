@@ -183,14 +183,15 @@
 
 <div id="github-content">
     <div id="div-book-by-year">
-        <h2>Qual ano você nasceu?</h2>
+        <h2 style="margin-bottom: 15px;">Qual ano você nasceu?</h2>
         <form id="form-book-by-year">
             <label for="book-by-year">Selecione o seu ano de nascimento:</label>
             <select id="book-by-year" name="book-by-year">
             </select>
 
             <br><br>
-            <button type="button" onclick="submitForm()" class="submit-btn">Enviar</button>
+            <button type="button" onclick="submitForm()" class="nectar-button large regular accent-color regular-button"
+                style="font-weight: bold;">Enviar</button>
         </form>
     </div>
 
@@ -204,12 +205,14 @@
                 <p class="book-name"></p>
                 <p class="book-author"></p>
                 <p class="book-description"></p>
-                <a target="_blank" class="" style="font-weight: bold;">
+                <a target="_blank" class="nectar-button large regular accent-color regular-button buy-button"
+                    style="font-weight: bold;">
                     Comprar na Amazon pelo melhor preço!
                 </a>
             </div>
         </div>
-        <button onclick="sortAgain()" class="sort-again">Descobrir outro livro!</button>
+        <button onclick="sortAgain()" class="nectar-button large regular accent-color regular-button"
+            style="font-weight: bold;">Descobrir outro livro!</button>
     </div>
 
     <script>
